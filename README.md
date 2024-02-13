@@ -16,22 +16,18 @@ This Python script automates the process of setting up and connecting Metamask t
 3. Make sure you have a passphrase saved in a file named `passphrase.txt`.
 4. Run the script using Python.
 
-```bash
-python main.py
-
 ## How it Works
 
 The script performs the following steps:
 
-Opens Firefox with the Metamask extension.
-Install Metamask to web browser.
-Connects to Metamask and imports the wallet using the passphrase from passphrase.txt.
-Connects to a Web3 application (in this case, Uniswap).
+- Opens Firefox with the Metamask extension.
+- Installs Metamask to the web browser.
+- Connects to Metamask and imports the wallet using the passphrase from `passphrase.txt`.
+- Connects to a Web3 application (in this case, Uniswap).
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
 
 ## Adjustments and Contributions
 
